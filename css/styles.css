@@ -1,0 +1,74 @@
+/* цвет актива #2196F3
+ */
+/* цвет текста #212121
+ */
+/* вторичный цвет текста #757575
+ */
+/* белый цвет #FFFFFF
+ */
+/* белый вторичный rgba(255, 255, 255, 0,6)
+ */
+/* цвет фона 1 #FFFFFF */
+/* цвет фона 2 #2F303A */
+/* цвет фона 3 #E5E5E5 */
+/*цвет фона 4 #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color:#ffffff;
+}
+
+body {
+  color: var(--primary-text-color)
+  background-color: var(--primary-white-color);
+}
+.logo {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+/* Стилизация навигации */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current{
+    color:var(--accent-color);
+}
+/* Стилизация контактов */
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.cotacts:hover,
+.contacts .link:focus,
+.contacts .link:hover {
+  color: var(--accent-color);
+}
+/* разметка героя */
+.hero-title {
+  color: var(--primary-white-color);
+}
+/* разметка секций */
+.section,
+.section-title,
+.section-title-member {
+  color: var(--title-text-color);
+}
+/* разметка преимуществ */
+.features .text {
+  color: var(--primary-text-color);
+}
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* разметка кнопки */
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
