@@ -109,8 +109,8 @@ body {
   color: var(--title-text-color);
 }
 /* смена фона секции Hero и Футера */
-.present,
-.bottom {
+.hero,
+.footer {
   background-color: var(--bg-one);
 }
 
@@ -181,13 +181,41 @@ body {
 /* цвет неактивной кнопки #F5F4FA */
 /*цвет фона #E5E5E5  */
 
+.nodecoration {
+  text-decoration: none;
+}
+
+.hero-portfolio {
+  background-color: var(--bg-two);
+}
 /* разметка кнопок фильтра портфолио */
-.btn .list {
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--button-bg-color);
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+/* Works */
+
+.works .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works .text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87x;
+  letter-spacing: 0.03em;
 }
