@@ -70,12 +70,16 @@ body {
 /* Стилизация контактов */
 .contacts .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   text-decoration: none;
 }
 .contacts .link:focus,
 .contacts .link:hover {
   color: var(--accent-color);
 }
+
 /* разметка героя */
 .hero-title {
   color: var(--primary-white-color);
@@ -90,6 +94,7 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -114,11 +119,6 @@ body {
   background-color: var(--bg-one);
 }
 
-/* смена фона секций Наши преимущества и Чем мы занимаемся */
-.advantages,
-.accomplishments {
-  background-color: var(--bg-two);
-}
 /* Смена фона секции Наша команда */
 .members {
   background-color: var(--bg-three);
@@ -144,7 +144,6 @@ body {
 /* Разметка членов команды */
 .crew .title {
   color: var(--title-text-color);
-  background-color: var(--primary-white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -185,11 +184,9 @@ body {
   text-decoration: none;
 }
 
-.hero-portfolio {
-  background-color: var(--bg-two);
-}
 /* разметка кнопок фильтра портфолио */
 .btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
